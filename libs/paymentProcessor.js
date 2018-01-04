@@ -25,7 +25,8 @@ module.exports = function(logger){
             callback(setupResults);
         });
     }, function(coins){
-        coins.forEach(function(coin){
+        // coins.forEach
+        enabledPools.forEach(function(coin){
 
             var poolOptions = poolConfigs[coin];
             var processingConfig = poolOptions.paymentProcessing;
