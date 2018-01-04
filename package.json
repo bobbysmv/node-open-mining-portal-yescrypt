@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/altpooler/node-open-mining-portal-yescrypt",
+    "homepage": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt",
     "bugs": {
-        "url": "https://github.com/altpooler/node-open-mining-portal-yescrypt/issues"
+        "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -28,10 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/altpooler/node-open-mining-portal-yescrypt.git"
+        "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/altpooler/node-stratum-pool-yescrypt.git",
+        "stratum-pool": "https://github.com/bobbysmv/node-stratum-pool-yescrypt.git",
         "dateformat": "*",
         "node-json-minify": "*",
         "redis": "*",
