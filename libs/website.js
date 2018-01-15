@@ -249,9 +249,12 @@ module.exports = function(logger){
     app.get('/:page', route);
     app.get('/', route);
 
+    app.use("/api/v1",require("./smv/v1"));
+
     app.get('/api/:method', function(req, res, next){
         portalApi.handleApiRequest(req, res, next);
     });
+
 
     app.post('/api/admin/:method', function(req, res, next){
         if (portalConfig.website
