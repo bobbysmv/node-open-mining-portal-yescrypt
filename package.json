@@ -1,54 +1,55 @@
 {
-    "name": "node-open-mining-portal",
-    "version": "0.0.4",
-    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
-    "keywords": [
-        "stratum",
-        "mining",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
-    ],
-    "homepage": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt",
-    "bugs": {
-        "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt/issues"
-    },
-    "license": "GPL-2.0",
-    "author": "Matthew Little",
-    "contributors": [
-        "vekexasia",
-        "TheSeven"
-    ],
-    "main": "init.js",
-    "bin": {
-        "block-notify": "./scripts/blockNotify.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt.git"
-    },
-    "dependencies": {
-        "stratum-pool": "https://github.com/bobbysmv/node-stratum-pool-yescrypt.git",
-        "dateformat": "*",
-        "node-json-minify": "*",
-        "redis": "*",
-        "mysql": "*",
-        "async": "*",
-        "express": "*",
-        "body-parser": "*",
-        "compression": "*",
-        "dot": "*",
-        "colors": "*",
-        "node-watch": "*",
-        "request": "2.69.0",
-        "nonce": "*",
-        "bignum": "*",
-        "extend": "*"
-    },
-    "engines": {
-        "node": ">=0.10"
-    }
+  "name": "node-open-mining-portal",
+  "version": "0.0.4",
+  "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "homepage": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt",
+  "bugs": {
+    "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Matthew Little",
+  "contributors": [
+    "vekexasia",
+    "TheSeven"
+  ],
+  "main": "init.js",
+  "bin": {
+    "block-notify": "./scripts/blockNotify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobbysmv/node-open-mining-portal-yescrypt.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "bignum": "*",
+    "bitcoin": "^3.0.1",
+    "body-parser": "*",
+    "colors": "*",
+    "compression": "*",
+    "dateformat": "*",
+    "dot": "*",
+    "express": "*",
+    "extend": "*",
+    "mysql": "*",
+    "node-json-minify": "*",
+    "node-watch": "*",
+    "nonce": "*",
+    "redis": "*",
+    "request": "2.69.0",
+    "stratum-pool": "https://github.com/bobbysmv/node-stratum-pool-yescrypt.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
 }

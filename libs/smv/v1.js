@@ -1,5 +1,5 @@
 var express = require( "express" );
-var var bitcoin = require('bitcoin');
+var bitcoin = require('bitcoin');
 var router = express.Router();
 var APIStatusCode = require( "./APIStatusCode" );
 
